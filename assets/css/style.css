@@ -17,21 +17,30 @@ body {
 .container {
     background-color: white;
 }
-#header {
+#mainHeader {
     background-color: #4aaaa5;
     color: white;
     padding: 30px;
     display: inline;
     font-size: 30px;
-    font-family: 'Anton', sans-serif;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.imagesContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+
+
 .links {
-    color: #4aaaa5;
+    color: #777777;
 }
 
 .nav {
-    background-color: #f8bbd0;
+    background-color: #ffffff;
 }
 
 .wrapper {
@@ -49,12 +58,16 @@ ul {
 }
 
 #mainContent {
+    color: #4aaaa5;
+    font-size: 40px
     padding: 10px;
      width: 85%;
      max-width: 960px;
     margin: 0 auto;
-    background-color: #fce4ec;
+    background-color: #ffffff;
     border-radius: 10px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 30px;
     
 }
 
@@ -67,8 +80,9 @@ img {
     padding: 5px;
 }
 
-#poppins {
-    font-family:'Poppins', sans-serif;
+#mainText {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 #footer {
