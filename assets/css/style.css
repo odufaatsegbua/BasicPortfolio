@@ -9,6 +9,7 @@
     display: block;
 }
 
+
 body {
     background-color: #eee;
     background-image: url("../images/trees.png");
@@ -59,7 +60,7 @@ ul {
 
 #mainContent {
     color: #4aaaa5;
-    font-size: 40px
+    font-size: 27px;
     padding: 10px;
      width: 85%;
      max-width: 960px;
@@ -67,9 +68,10 @@ ul {
     background-color: #ffffff;
     border-radius: 10px;
     font-family: font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 30px;
+    padding: 50px;
     
 }
+
 
 img {
     width: 225px;
@@ -83,7 +85,23 @@ img {
 #mainText {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    font-size: 19px;
+
 }
+
+.sinlgeContainer {
+    position: relative;
+  }
+  
+.captions {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }  
 
 #footer {
     position: fixed;
