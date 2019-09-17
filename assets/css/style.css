@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-.clearfix {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-
 body {
     background-color: #eee;
     background-image: url("../images/trees.png");
@@ -22,16 +15,13 @@ body {
     background-color: #4aaaa5;
     color: white;
     padding: 30px;
-    display: inline;
     font-size: 30px;
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.imagesContainer {
+.imageContainer {
     display: flex;
     justify-content: space-around;
-    margin: auto;
-
 }
 
 
@@ -42,11 +32,7 @@ body {
 
 .nav {
     background-color: #ffffff;
-}
-
-.wrapper {
-    width: 960px;
-    margin: 0 auto;
+    margin: 0 0 15% 0;
 }
 
 li {
@@ -62,14 +48,11 @@ ul {
     color: #4aaaa5;
     font-size: 27px;
     padding: 10px;
-     width: 85%;
-     max-width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
     border-radius: 10px;
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 50px;
-    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 25%;    
 }
 
 
@@ -94,13 +77,14 @@ img {
   }
   
 .captions {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
     background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    color: white;   
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+    bottom: 100px;
+      
   }  
 
 #footer {
