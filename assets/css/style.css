@@ -33,6 +33,7 @@ body {
 .nav {
     background-color: #ffffff;
     margin: 0 0 15% 0;
+    width: 960px;
 }
 
 li {
@@ -52,7 +53,7 @@ ul {
     background-color: #ffffff;
     border-radius: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 25%;    
+    width: 960px;    
 }
 
 
